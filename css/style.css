@@ -1,0 +1,12 @@
+* {
+	text-align: center;
+}
+.offline {color: blue;}
+
+div {
+	background-color: darkgray;
+	padding:10px;
+}
+
+a { color: black;
+font-weight: 700;}
