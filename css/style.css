@@ -1,11 +1,41 @@
-* {
+body {
 	text-align: center;
+}
+h2, h3 {
+	font-family: Oswald, sans-serif;
+}
+
+.streamer {
+	color: darkgreen;
+}
+.twitch-header {
+	padding-bottom: 20px;
+}
+
+.streaming,
+.viewers,
+.channel-followers {
+	font-style: italic;
+	font-size: 18px;
+}
+
+.goto-channel-button a {
+	background-color: azure;
+	color: black;
+	padding: 15px;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+.goto-channel-button a:hover {
+	background-color: darkgray;
+	text-decoration: none;
 }
 .offline {color: blue;}
 
 div {
-	background-color: darkgray;
-	padding:10px;
+	background-color: lightsteelblue;
+	padding:2px 0 22px 0;
 }
 
 a { color: black;
